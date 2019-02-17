@@ -3,7 +3,7 @@ import "fmt"
 var a int =10
 
 func main(){
-	//a := 10
+	a := 10
 	add1 := add()
     fmt.Println(add1())
 }
