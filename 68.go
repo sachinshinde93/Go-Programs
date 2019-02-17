@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	//"gorilla/mux"
+	"gorilla/mux"
 )
 
 // Article - Our struct for all articles
