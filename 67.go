@@ -1,18 +1,18 @@
 package main
-//import "fmt"
+import "fmt"
 import "net/http"
-//import "strconv"
-//import "sync"
+import "strconv"
+import "sync"
 
-//var count int
-//var mutex = &sync.Mutex{}
+var count int
+var mutex = &sync.Mutex{}
 
-/*func inc_func(w http.ResponseWriter, r* http.Request){
+func inc_func(w http.ResponseWriter, r* http.Request){
 	mutex.Lock()
 	count++
 	fmt.Fprintf(w,"You are %vth user visiting this site..Thanks",strconv.Itoa(count))
 	mutex.Unlock()
-}*/
+}
 
 func main(){
 	/*http.HandleFunc("/",func(w http.ResponseWriter, r* http.Request){
